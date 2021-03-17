@@ -1,4 +1,4 @@
-Apologies for some of the formatting, this was originally written in a word document with proper math formatting.
+Apologies for some of the formatting, this was originally written in a Word document with proper math formatting.
 
 As a preface, I would suggest reading up on what a barn door tracker is on Wikipedia, and pay special attention during the Mount Design Alternatives section, specifically the portion on _tangent error_.  https://en.wikipedia.org/wiki/Barn_door_tracker
 
