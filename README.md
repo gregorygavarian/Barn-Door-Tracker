@@ -59,7 +59,14 @@ And since |f|=1,
 n_RPM=60 (τa )/t  tan⁡[(1°)/(240 s) t]
 
 ![image](https://user-images.githubusercontent.com/80729542/111401181-27c3d680-869f-11eb-935c-6fd4dd310568.png)
+
 Figure 1: Plot showing the necessary RPM to match the rotational rate of the sky.  This assumes a ¼”-20 bolt and 12 inches from hinge to bolt.
+
+The longer the tracking, the faster the screw rotation rate will need to increase.  As the angle of the top board increases relative to the bottom board, the less effective the motion of the screw becomes at changing the angle of the top board.  When the top board is vertical, assuming it is even still in contact with the screw at that point, the screw would basically have to move infinitely fast in order to change the angle of the top board.
+
+![image](https://user-images.githubusercontent.com/80729542/111537435-d15ba400-8741-11eb-8b68-fb8254d62ecc.png)
+
+Figure 2: As we approach 21,600 seconds of tracking, the screw turn speed approaches infinity.  This makes sense, since at 6 hours, the board will be vertical, and no amount of screwn turning will affect it.
 
 In Figure 1, the rotation rate is just above 1 RPM.  However, it would be easier to change the design of the tracker such that n is a round number.  An obvious choice would be n=1 RPM.  Perhaps the easiest parameter to change would be the position of the bolt, a, along the horizontal face.  The number of rotations per minute varies with time, so there’s no steadfast length we can choose which will yield n=1 RPM for all values of t.  But we can choose a value for a where the average is 1 RPM.
 
